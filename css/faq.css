@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-Montserrat: "Montserrat", sans-serif;
+    --cor-amarelo1: #c57f1c; 
+}
+
+#faq{
+    background-color: black;
+}
+
+.titulo-faq{
+    font-family: var(--fonte-Montserrat);
+    color: var(--cor-amarelo1);
+}
+
+.accordion{
+    --bs-accordion-active-bg: #333333;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: none;
+    --bs-accordion-border-width: 0px;
+    
+    --bs-accordion-button-active-color: white;
+}   
+
+.accordion-button.collapsed{
+    padding: 2.5%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(to top right, #0A0A0A, #333333);
+}
+.accordion-collapse{
+    background-color: #dce2d8;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    padding: 2.5%;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.accordion-body{
+    font-size: 1.1rem;
+}

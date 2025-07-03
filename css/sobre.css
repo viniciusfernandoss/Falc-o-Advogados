@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-Montserrat: "Montserrat", sans-serif;
+    --cor-amarelo1: #c57f1c; 
+}
+
+#sobre{
+    background-color: black;
+}
+
+.content2-sobre h2{
+    font-family: var(--fonte-Montserrat);
+    color: var(--cor-amarelo1);
+}
+.content2-sobre p{
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .content1-sobre img{
+        width: 70%;
+    }
+}

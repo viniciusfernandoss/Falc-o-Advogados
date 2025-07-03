@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-Montserrat: "Montserrat", sans-serif;
+    --cor-amarelo1: #DB8000; 
+}
+
+.header-top-fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+#headerr{
+    color: white;
+}
+
+nav a{
+    font-family: var(--fonte-Montserrat);
+}
+.nav-link{
+    color: var(--cor-amarelo1);
+    font-size: 13px;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.btn-fazer-contato{
+    text-decoration: none;
+    color: var(--cor-amarelo1);
+    animation: pulse 1.5s infinite;
+    transition: 0.3s;
+    border: 2px solid var(--cor-amarelo1);
+}
+.btn-fazer-contato:hover{
+    color: white;
+    border: 2px solid white;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 var(--cor-amarelo1);
+    }
+    70%{
+        box-shadow: 0 0 0 25px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
+}
+
+.redes-info-bar a{
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.redes-info-bar a:hover{
+    color: #EEB840;
+    transform: scale(1.2);
+}

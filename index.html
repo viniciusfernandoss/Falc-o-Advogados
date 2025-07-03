@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falção Advogados</title>
+
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Link Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Link Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/global.css">
+
+    <!-- Link ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/reveal.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="header-top-fixo w-100">
+            <!--
+            ==================================================================
+                            Barra de contatos e informações
+            ==================================================================
+            -->
+            <section class="navinfo bg-info-bar bg-black" id="headerr">
+                <div class="container d-none d-lg-block py-2" id="info-bar">
+                    <div class="content-info-bar d-flex justify-content-between">
+                        <div class="contato-info-bar d-flex align-items-center">
+                            <p class="mb-0 me-4 ms-2">
+                                falcaoadvocacia@gmail.com
+                            </p>
+                            <p class="mb-0 me-4 ms-2">
+                                (81) 99748-6905
+                            </p>
+                        </div>
+                        <div class="redes-info-bar d-flex align-items-center">
+                            <a href="" class="me-3"><i class="bi bi-whatsapp"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--
+            ==================================================================
+                                Barra de Navegações
+            ==================================================================
+            -->
+            <nav class="navbar py-1 navbar-expand-lg navbar-light" id="menuNav">
+                <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo-header.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder" href="#">INÍCIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder" href="#servicos">SERVIÇOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder" href="#Sobre">SOBRE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder" href="#feedback">BLOB</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder" href="#footer-menu">CONTATO</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn-fazer-contato d-none fs-6 d-lg-inline-block fw-bolder py-2 px-3 rounded-5">
+                        Fazer Contato
+                    </a>
+                </div>
+            </nav>
+        </div>  
+    </header>
+
+
+
+    <main>
+        <section id="BannerPrincipal" class="d-flex justify-content-center align-items-center">
+           <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 d-flex align-items-center mt-5 mt-lg-0">
+                        <div class="content-bannerPrincipal mt-5 mt-lg-0">
+                            <h1 class="fw-bold mt-5 mt-lg-0">
+                                VOCÊ ESTÁ ENFRENTANDO PROBLEMAS TRABALHISTAS?
+                            </h1>
+                            <p class="fs-5 mt-4 mb-4">
+                                Precisa de um <strong>Advogado</strong> para ajudá-lo a garantir seus direitos ou sua defesa?
+                            </p>
+                            <a href="#" class="btn-saiba-mais fs-6 d-lg-inline-block fw-bolder py-2 px-5 rounded-5">
+                                Saiba mais
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="content-img-bannerPrincipal d-none d-lg-flex justify-content-center align-items-center">
+                            <img src="img/img-bannerPrincipal.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+           <div class="gradient-overlay d-lg-block d-none"></div>
+        </section>
+
+        <section id="servicos">
+            <div class="container py-5">
+                <h2 class="text-center mb-5 fw-bold fs-1">
+                    VEJA NOSSOS SERVIÇOS
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="content-card-servicos rounded-4 d-flex flex-column justify-content-center align-items-center text-center">
+                            <img src="icon/icone-card1.png" class="img-fluid" alt="Icone">
+                            <h3 class="fs-5 mt-2 mb-3">Reclamação Trabalhista para Empregados:</h3>
+                            <p class="px-2">
+                                Defesa em ações trabalhistas para assegurar direitos como horas extras, verbas rescisórias, adicionais, indenizações e acidentes de trabalho.
+                            </p>
+                            <a href="#" class="btn-card-servicos fw-bolder px-4 py-2 rounded-5">
+                                Entrar em contato
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="content-card-servicos rounded-4 d-flex flex-column justify-content-center align-items-center text-center">
+                            <img src="icon/icone-card2.png" class="img-fluid" alt="Icone">
+                            <h3 class="fs-5 mt-2 mb-3">Reclamação Trabalhista para Empresas:</h3>
+                            <p class="px-2">
+                                Estratégias eficazes para defender empresas em processos trabalhistas, reduzindo riscos e passivos.
+                            </p>
+                            <a href="#" class="btn-card-servicos fw-bolder px-4 py-2 rounded-5">
+                                Entrar em contato
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="content-card-servicos rounded-4 d-flex flex-column justify-content-center align-items-center text-center">
+                            <img src="icon/icone-card3.png" class="img-fluid" alt="Icone">
+                            <h3 class="fs-5 mt-2 mb-3">Consultoria e Compliance<br> Trabalhista:</h3>
+                            <p class="px-2">
+                                Assessoria preventiva para empresas, com foco em conformidade com as leis trabalhistas o redução do litígios futuros.
+                            </p>
+                            <a href="#" class="btn-card-servicos fw-bolder px-4 py-2 rounded-5">
+                                Entrar em contato
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="content-card-servicos rounded-4 d-flex flex-column justify-content-center align-items-center text-center">
+                            <img src="icon/icone-card4.png" class="img-fluid" alt="Icone">
+                            <h3 class="fs-5 mt-2 mb-3">Cálculos Trabalhistas:</h3>
+                            <p class="px-2">
+                                Análise detalhada e elaboração de cálculos precisos para ações trabalhistas, evitando prejuízos financeiros.
+                            </p>
+                            <a href="#" class="btn-card-servicos fw-bolder px-4 py-2 rounded-5">
+                                Entrar em contato
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="content-card-servicos rounded-4 d-flex flex-column justify-content-center align-items-center text-center">
+                            <img src="icon/icone-card5.png" class="img-fluid" alt="Icone">
+                            <h3 class="fs-5 mt-2 mb-3">Atuação em Audiências e<br> Tribunais:</h3>
+                            <p class="px-2">
+                                Representação qualificada em todas as instâncias da Justiça do Trabalho, incluindo sustentações orais e recursos.
+                            </p>
+                            <a href="#" class="btn-card-servicos fw-bolder px-4 py-2 rounded-5">
+                                Entrar em contato
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="content-card-servicos rounded-4 d-flex flex-column justify-content-center align-items-center text-center">
+                            <img src="icon/icone-card6.png" class="img-fluid" alt="Icone">
+                            <h3 class="fs-5 mt-2 mb-3">Assistência em Rescisões<br> Contratuais:</h3>
+                            <p class="px-2">
+                                Orientação jurídica em processos de rescisão de contrato, garantindo que todos os direitos e deveres sejam cumpridos corretamente.
+                            </p>
+                            <a href="#" class="btn-card-servicos fw-bolder px-4 py-2 rounded-5">
+                                Entrar em contato
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content1-sobre d-flex mb-5 mb-lg-0 justify-content-center">
+                            <img src="img/img-sobre.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content2-sobre">
+                            <h2 class="fw-bold fs-1 text-end mb-4">
+                                <span class="fs-5 fw-bold">SOBRE:</span><br> FALCÃO ADVOCACIA
+                            </h2>
+                            <p>
+                                Na Falcão Advocacia Trabalhista, somos movidos pelo compromisso de proteger direitos, valorizar relações de trabalho e oferecer soluções jurídicas sob medida — sempre com <strong>ética, precisão e transparência.</strong>
+                                <br><br>
+                                Atuamos tanto na defesa de trabalhadores quanto de empresas, com foco em um atendimento humanizado, estratégico e resolutivo. Cada caso é tratado com a atenção que merece, porque entendemos que por trás de cada processo existem pessoas, histórias e desafios reais.
+                                <br><br>
+                                Mais do que resolver conflitos, nossa missão é construir caminhos seguros, seja para prevenir litígios ou enfrentar disputas com firmeza e inteligência jurídica.
+                                <br><br>
+                                <strong>Falcão Advocacia Trabalhista:</strong>
+                                <br>
+                                <strong>Justiça com proximidade, técnica e propósito.</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-fernando">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-5 d-flex align-items-center">
+                        <div class="content1-sobre-fernando">
+                            <h2 class="fw-bold fs-1">
+                                <span class="fs-5">SOBRE:</span><br> FERNANDO FALCÃO
+                            </h2>
+                            <p class="mb-4">
+                                Advogado com mais de 10 anos de atuação firme na linha de frente da Justiça do Trabalho. Graduado pela Faculdade AESO Barros Melo, em Olinda, e pós-graduado em Direito Público pela Estácio Recife, construiu uma carreira sólida defendendo os direitos de quem vive o peso da relação trabalhista todos os dias.
+                                <br><br>
+                                Com linguagem acessível, postura combativa e visão estratégica, atua com profundidade técnica e escuta humana, porque, para ele, cada processo carrega mais que números: carrega histórias.
+                                <br><br>
+                                <strong class="fs-5">Se é para lutar por justiça, ele vai até o fim.</strong>
+                            </p>
+                            <a href="#" class="btn-sobre-fernando py-2 px-3 rounded-2 fw-bolder">
+                                Entre em contato
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 p-0">
+                        <div class="content2-sobre-fernando d-flex align-items-end justify-content-end">
+                            <img src="img/fernando-ia.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="container py-5">
+                <h2 class="fw-bold fs-1 text-center titulo-faq mb-4">
+                        <span class="fw-normal fs-5">FAQ</span><br> PERGUNTAS FREQUENTES
+                </h2>
+                <div class="row">
+                <div class="col-12">
+                    <div class="content-faq">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3 rounded-3">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Tenho chance de ganhar essa causa?
+                                </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <hr class="mx-3 my-0">
+                                <div class="accordion-body">
+                                    Essa pergunta é mais comum do que parece. Aqui na Falcão Advocacia Trabalhista, analisamos todos os documentos e detalhes com extremo cuidado e responsabilidade. Toda ação judicial envolve riscos, mas o que fazemos é construir a melhor tese possível, personalizada ao seu caso, com base nos elementos que você nos apresentar. Nosso compromisso é ser realistas e transparentes desde o início.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3 rounded-3">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Quanto tempo esse processo pode durar?
+                                </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ipsam a. Perferendis rerum maiores dolores illo? Delectus harum magnam dolore consectetur amet in ab quos. Autem inventore magnam doloribus excepturi?
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3 rounded-3">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Quais são os custos do processo?
+                                </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ipsam a. Perferendis rerum maiores dolores illo? Delectus harum magnam dolore consectetur amet in ab quos. Autem inventore magnam doloribus excepturi?
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        Preciso mesmo de um advogado?
+                                    </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ipsam a. Perferendis rerum maiores dolores illo? Delectus harum magnam dolore consectetur amet in ab quos. Autem inventore magnam doloribus excepturi?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                        Se eu perder o processo, vou ter que pagar alguma coisa?
+                                    </button>
+                                </h2>
+                                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ipsam a. Perferendis rerum maiores dolores illo? Delectus harum magnam dolore consectetur amet in ab quos. Autem inventore magnam doloribus excepturi?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3 rounded-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                        Quanto vou receber se ganhar?
+                                    </button>
+                                </h2>
+                                <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ipsam a. Perferendis rerum maiores dolores illo? Delectus harum magnam dolore consectetur amet in ab quos. Autem inventore magnam doloribus excepturi?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="container py-5">
+                <div class="titulo-blog text-center mb-5">
+                    <h2 class="fw-bold fs-1">
+                        PUBLICAÇÕES
+                    </h2>
+                    <div class="linha-amarela w-50 mx-auto mb-3"></div>
+                    <p>
+                        Aqui estão os mais recentes artigos que produzimos para você.<br> Conteúdo exclusivo para ampliar seus conhecimentos.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="content-card-blog rounded-3">
+                            <img src="img/img-card1-blog.png" class="w-100" alt="Capa blog">
+                            <div class="txt-card d-flex flex-column p-4">
+                                <h3 class="fs-5 fw-bolder">
+                                    Direito Digital lidera áreas com maior demanda em 2025
+                                </h3>
+                                <p>
+                                    Segundo o anuário Análise Advocacia 2025, o Direito Digital continua sendo a área mais promissora, seguido por Proteção de Dados, Tributário e Compliance. A pesquisa, baseada na opinião de 906 executivos, destaca a crescente importância dessas especialidades no cenário jurídico atual.
+                                </p>
+                                <a href="#" class="btn-card-blog text-center py-2 px-5 rounded-1">
+                                    Ler mais
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="content-card-blog rounded-3">
+                            <img src="img/img-card2-blog.png" class="w-100" alt="Capa blog">
+                            <div class="txt-card d-flex flex-column p-4">
+                                <h3 class="fs-5 fw-bolder">
+                                    Análise Advocacia Regional 2025 incluirá ranking de advogados
+                                </h3>
+                                <p>
+                                    A edição 2025 do Análise Advocacia Regional trará, rankings dos advogados mais admirados por estado e cidade, além dos escritórios. A iniciativa visa reconhecer profissionais destacados fora dos grandes centros econômicos, oferecendo uma visão mais abrangente da advocacia.
+                                </p>
+                                <a href="#" class="btn-card-blog text-center py-2 px-5 rounded-1">
+                                    Ler mais
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="content-card-blog rounded-3">
+                            <img src="img/img-card3-blog.png" class="w-100" alt="Capa blog">
+                            <div class="txt-card d-flex flex-column p-4">
+                                <h3 class="fs-5 fw-bolder">
+                                    ExpoDireito 2025 debate o futuro da advocacia no Brasil
+                                </h3>
+                                <p>
+                                    Realizada em Fortaleza nos dias 23 e 24 de maio, a ExpoDireito Brasil 2025 reuniu especialistas para discutir temas como inovação no Direito, garantias fundamentais e o fortalecimento das instituições. O evento foi considerado o maior do setor jurídico na América Latina em 2025.
+                                </p>
+                                <a href="#" class="btn-card-blog text-center py-2 px-5 rounded-1">
+                                    Ler mais
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid p-0 m-0" id="endereco">
+            <div class="row m-0">
+                <div class="col-12 col-lg-6 py-5 px-0">
+                    <div class="content1-endereco px-5 d-flex flex-column justify-content-center">
+                        <div class="content-titulo-endereco">
+                            <h2 class="fw-bold fs-1">
+                                ENDEREÇO
+                            </h2>
+                        </div>
+                        <p class="fw-bolder">
+                            Rua Jean Emile Favre, 1352 <br>
+                            Sala 102 <br>
+                            Ipsep, Recife-PE <br>
+                            51190-450
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 p-0 d-none d-lg-block" id="content2-sobre">
+                    <div class="content2-sobre">
+                        <!-- <img src="img/img-sobre.webp" alt="Foto sobre" class="img-fluid"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+    </main>
+
+
+
+    <footer>
+        
+
+        <!-- 
+        ==================================================================
+                                Footer Menu
+        ==================================================================
+        -->
+        <div class="container pt-5" id="footer-menu">
+            <div class="row">
+                <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+                    <div class="content1-footer-menu d-flex flex-column">
+                        <div class="logo-footer text-center mb-4">
+                            <img src="img/logo-footer.png" alt="Logo footer">
+                        </div>
+                        <div class="btn-content1-footer-menu text-center">
+                            <a href="#" class="py-2 px-4 rounded-1">
+                                Fazer Contato
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-lg-3 mb-3 mb-lg-0">
+                                <div class="content2-footer-menu ps-lg-5">
+                                    <h2>
+                                        Menu
+                                    </h2>
+                                    <ul class="m-0 p-0">
+                                        <li><a href="#">Início</a></li>
+                                        <li><a href="#servicos">Serviços</a></li>
+                                        <li><a href="#Sobre">Sobre</a></li>
+                                        <li><a href="#perguntasErespostas">Perguntas</a></li>
+                                        <li><a href="#footer-menu">Contato</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3 mb-3 mb-lg-0">
+                                <div class="content3-footer-menu">
+                                    <h2>
+                                        Telefone
+                                    </h2>
+                                    <p>
+                                        <i class="bi bi-telephone me-1"></i>
+                                        (81) 9 8771-7205
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3 mb-3 mb-lg-0">
+                                <div class="content4-footer-menu">
+                                    <h2>
+                                        Redes Sociais
+                                    </h2>
+                                    <a href="" class="me-3"><i class="bi bi-whatsapp"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3 mb-3 mb-lg-0">
+                                <div class="content4-footer-menu">
+                                    <h2>
+                                        Email
+                                    </h2>
+                                    <p>
+                                        <i class="bi bi-envelope me-1"></i>
+                                        email@email.com.br
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="linha-footer mx-auto mt-5"></div>
+
+        <!-- 
+        ==================================================================
+                                Footer Copyright
+        ==================================================================
+        -->
+        <div class="container pb-5" id="footer-copyright">
+            <div class="row mt-4">
+                <div class="col-12 col-lg-6">
+                    <div class="content1-footer-copy">
+                        <p class="text-center p-0 m-0">
+                            © Copyright 2025 - MV Consultoria
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="content2-footer-copy">
+                        <p class="text-center">
+                            Desenvolvido por <a href="https://www.promovacomunicacao.com.br/" target="_blank">Promova Comunicação e Marketing</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Link Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Link Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Link JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-Montserrat: "Montserrat", sans-serif;
+    --cor-amarelo1: #EEB840;
+}
+
+#BannerPrincipal{
+    height: 100vh;
+    background-image: url("../img/bg-bannerPrincipal.png");
+    background-position: center;
+    background-size: cover;
+    font-family: var(--fonte-Montserrat);
+}
+
+.content-bannerPrincipal{
+    color: white;
+}
+
+.content-bannerPrincipal h1{
+    color: var(--cor-amarelo1);
+}
+
+.btn-saiba-mais{
+    text-decoration: none;
+    color: var(--cor-amarelo1);
+    transition: 0.3s;
+    border: 2px solid var(--cor-amarelo1);
+}
+.btn-saiba-mais:hover{
+    color: white;
+    border: 2px solid white;
+}
+
+.gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, #000); /* degrade para preto */
+  z-index: 2;
+}
+
+@media (max-width: 992px) {
+    #BannerPrincipal{
+        height: 70vh;
+        background-image: url("../img/bg-bannerPrincipal-mobile.png");
+    }
+
+    .content-bannerPrincipal h1{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,112 @@
+footer{
+    background-image: linear-gradient(#e8a52b, #DB8001);
+}
+
+/* 
+======================================
+            Footer Menu
+======================================
+*/
+.content2-footer-menu li{
+    list-style: none;
+}
+.content1-footer-menu a{
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: var(--fonte-Poppins);
+    font-weight: 500;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+.content1-footer-menu a:hover{
+    color: white;
+    background-color: black;
+}
+.logo-footer img{
+    width: 35%;
+}
+
+
+
+.content2-footer-menu h2, .content3-footer-menu h2, .content1-footer-menu h2, .content4-footer-menu h2{
+    font-family: var(--fonte-BebasNeue);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+.content2-footer-menu p{
+    font-family: var(--fonte-SegoeUi);
+    color: black
+}
+.content3-footer-menu p{
+    font-size: 1rem;
+    font-family: var(--fonte-SegoeUi);
+    color: black;
+}
+.content2-footer-menu a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+.content2-footer-menu a:hover{
+    font-weight: bold
+}
+
+.content3-footer-menu p{
+    color: black;
+}
+
+.content4-footer-menu p{
+    font-size: 1rem;
+    font-family: var(--fonte-SegoeUi);
+    color: black;
+}
+.content4-footer-menu a{
+    text-decoration: none;
+    color: black;
+}
+.content4-footer-menu a:hover{
+    
+}
+
+.redes-footer-menu a{
+    text-decoration: none;
+    color: black
+}
+.redes-footer-menu a:hover, .content3-footer-menu a:hover{
+    color: black;
+}
+
+.content3-footer-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.bi-map-fill{
+    color: black;
+}
+
+.linha-footer{
+    height: 1px;
+    width: 80%;
+    background: linear-gradient(to right, transparent, black, transparent);
+}
+
+/* 
+=========================================
+            Footer Copyright
+=========================================
+*/
+#footer-copyright p{
+    color: black;
+    font-size: 1rem;
+}
+#footer-copyright a{
+    font-size: 1rem;
+    color: blue;
+}
+#footer-copyright a:hover{
+    color: black;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-Montserrat: "Montserrat", sans-serif;
+    --cor-amarelo1: #c57f1c; 
+}
+
+#blog{
+    background-color: white;
+}
+
+.titulo-blog{
+    font-family: var(--fonte-Montserrat);
+}
+.linha-amarela{
+    background-color: var(--cor-amarelo1);
+    height: 5px;
+}
+
+
+
+.content-card-blog{
+    font-family: var(--fonte-Montserrat);
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.content-card-blog p{
+    font-size: 14px;
+}
+
+.btn-card-blog{
+    text-decoration: none;
+    background-color: var(--cor-amarelo1);
+    color: white;
+    transition: 0.4s;
+}
+.btn-card-blog:hover{
+    background-color: black;
+}
