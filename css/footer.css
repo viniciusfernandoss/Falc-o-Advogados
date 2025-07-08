@@ -58,33 +58,25 @@ footer{
     color: black;
 }
 
+
 .content4-footer-menu p{
     font-size: 1rem;
     font-family: var(--fonte-SegoeUi);
     color: black;
 }
-.content4-footer-menu a{
-    text-decoration: none;
-    color: black;
-}
-.content4-footer-menu a:hover{
-    
-}
 
-.redes-footer-menu a{
-    text-decoration: none;
-    color: black
-}
-.redes-footer-menu a:hover, .content3-footer-menu a:hover{
+
+.btn-redes-footer{
     color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}   
+.btn-redes-footer:hover {
+    color: white;
 }
 
 .content3-footer-menu a{
     text-decoration: none;
-    color: black;
-}
-
-.bi-map-fill{
     color: black;
 }
 

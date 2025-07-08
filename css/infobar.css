@@ -60,3 +60,10 @@ nav a{
     color: #EEB840;
     transform: scale(1.2);
 }
+
+.navbar-toggler{
+    color: var(--cor-amarelo1);
+    font-size: 0.8rem;
+    padding: 4px;
+    
+}
