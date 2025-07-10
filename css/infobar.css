@@ -16,6 +16,10 @@
     color: white;
 }
 
+.logo-header-img{
+    width: 120%;
+}
+
 nav a{
     font-family: var(--fonte-Montserrat);
 }
