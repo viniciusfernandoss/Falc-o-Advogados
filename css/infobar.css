@@ -16,7 +16,9 @@
     color: white;
 }
 
-
+.logo-header-nova{
+    width: 110%;
+}
 
 nav a{
     font-family: var(--fonte-Montserrat);
