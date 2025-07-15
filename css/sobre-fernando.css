@@ -11,6 +11,7 @@
     background-size: cover;
 }
 
+
 .content1-sobre-fernando h2{
     font-family: var(--fonte-Montserrat);
     color: var(--cor-amarelo1);
@@ -30,6 +31,11 @@
     background-color: black;
     color: white;
 }
+
+.txt-sobre-fernando{
+    margin-bottom: 10px;
+}
+
 
 @media (max-width: 992px) {
     #sobre-fernando {
