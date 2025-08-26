@@ -20,6 +20,7 @@
 
 
 .content-card-blog{
+    height: 36rem;
     font-family: var(--fonte-Montserrat);
     background-color: #FAFAFA;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -29,11 +30,17 @@
 }
 
 .btn-card-blog{
-    text-decoration: none;
     background-color: var(--cor-amarelo1);
     color: white;
     transition: 0.4s;
 }
 .btn-card-blog:hover{
+    color: white;
     background-color: black;
+}
+
+@media (max-width: 1200px) {
+    .content-card-blog {
+        height: 40rem;
+    }
 }
