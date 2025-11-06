@@ -3,13 +3,16 @@
 :root {
     --fonte-Montserrat: "Montserrat", sans-serif;
     --cor-amarelo1: #c57f1c; 
+    --cor-background: black;
+    --cor-text: white;
 }
 
 #blog{
-    background-color: white;
+    background-color: var(--cor-background);
 }
 
 .titulo-blog{
+    color: var(--cor-text);
     font-family: var(--fonte-Montserrat);
 }
 .linha-amarela{
@@ -21,6 +24,7 @@
 
 .content-card-blog{
     height: 36rem;
+    border: none;
     font-family: var(--fonte-Montserrat);
     background-color: #FAFAFA;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

@@ -1,5 +1,13 @@
+:root {
+    --fonte-Montserrat: "Montserrat", sans-serif;
+    --cor-amarelo1: #c57f1c; 
+    --cor-background: black;
+    --cor-text: white;
+}
+
 footer{
-    background-image: linear-gradient(#e8a52b, #DB8001);
+    background: var(--cor-background);
+    color: var(--cor-amarelo1);
 }
 
 /* 
@@ -15,13 +23,13 @@ footer{
     text-decoration: none;
     font-family: var(--fonte-Poppins);
     font-weight: 500;
-    color: black;
+    color: var(--cor-amarelo1);
     transition: 0.3s;
-    border: 1px solid black;
+    border: 1px solid var(--cor-amarelo1);
 }
 .content1-footer-menu a:hover{
     color: white;
-    background-color: black;
+    background-color: var(--cor-amarelo1);
 }
 .logo-footer img{
     width: 35%;
@@ -33,21 +41,21 @@ footer{
     font-family: var(--fonte-BebasNeue);
     font-size: 1.3rem;
     font-weight: 500;
-    color: black;
+    color: var(--cor-amarelo1);
 }
 .content2-footer-menu p{
     font-family: var(--fonte-SegoeUi);
-    color: black
+    color: var(--cor-amarelo1)
 }
 .content3-footer-menu p{
     font-size: 1rem;
     font-family: var(--fonte-SegoeUi);
-    color: black;
+    color: var(--cor-amarelo1);
 }
 .content2-footer-menu a{
     font-size: 1rem;
     text-decoration: none;
-    color: black;
+    color: var(--cor-amarelo1);
     transition: 0.2s;
 }
 .content2-footer-menu a:hover{
@@ -55,19 +63,19 @@ footer{
 }
 
 .content3-footer-menu p{
-    color: black;
+    color: var(--cor-amarelo1);
 }
 
 
 .content4-footer-menu p{
     font-size: 1rem;
     font-family: var(--fonte-SegoeUi);
-    color: black;
+    color: var(--cor-amarelo1);
 }
 
 
 .btn-redes-footer{
-    color: black;
+    color: var(--cor-amarelo1);
     text-decoration: none;
     transition: 0.3s;
 }   
@@ -77,13 +85,13 @@ footer{
 
 .content3-footer-menu a{
     text-decoration: none;
-    color: black;
+    color: var(--cor-amarelo1);
 }
 
 .linha-footer{
     height: 1px;
     width: 80%;
-    background: linear-gradient(to right, transparent, black, transparent);
+    background: linear-gradient(to right, transparent, var(--cor-amarelo1), transparent);
 }
 
 /* 
@@ -92,13 +100,14 @@ footer{
 =========================================
 */
 #footer-copyright p{
-    color: black;
+    color: var(--cor-amarelo1);
     font-size: 1rem;
 }
 #footer-copyright a{
     font-size: 1rem;
     color: blue;
+    transition: 0.3s;
 }
 #footer-copyright a:hover{
-    color: black;
+    color: white;
 }

@@ -18,7 +18,17 @@
 }
 
 #content2-sobre{
-    background-image: url('../img/bg-endereco.png');
+    /* background-image: url('../img/bg-endereco.png');
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+}
+
+.map-container {
+    
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
 }

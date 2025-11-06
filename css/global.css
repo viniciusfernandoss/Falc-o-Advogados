@@ -7,3 +7,58 @@
 @import url('blog.css');
 @import url('endereco.css');
 @import url('footer.css');
+
+:root {
+    --fonte-Montserrat: "Montserrat", sans-serif;
+    --cor-amarelo1: #c57f1c; 
+    --cor-background: black;
+    --cor-text: white;
+}
+
+.btn-whatsapp-fixed {
+    text-decoration: none;
+}
+
+.container-whatsapp {
+    position: fixed;
+    bottom: 0;
+    z-index: 10002;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+
+    animation: pulse-whatsapp 1.5s infinite;
+}
+.container-whatsapp:hover{
+    transform: scale(1.2);
+}
+.container-whatsapp .bi{
+    color: white;
+}
+.container-whatsapp .bi::before{
+    
+}
+.container-whatsapp .bi:hover{
+    transform: scaleX(2);
+}
+.container-whatsapp img{
+    width: 30px;
+}
+
+@keyframes pulse-whatsapp{
+    0%{
+        box-shadow: 0 0 0 0 #0ba360;
+    }
+    40%{
+        background-color: #0ba360;
+    }
+    70%{
+        box-shadow: 0 0 0 25px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
+}
