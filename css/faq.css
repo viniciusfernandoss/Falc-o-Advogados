@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 :root {
     --fonte-Montserrat: "Montserrat", sans-serif;
-    --cor-amarelo1: #c57f1c; 
+    --cor-amarelo1: #EEB840; 
 }
 
 #faq{
@@ -15,7 +16,7 @@
 }
 
 .accordion{
-    --bs-accordion-active-bg: #333333;
+    --bs-accordion-active-bg: #0A0A0A;
     --bs-accordion-active-color: white;
     --bs-accordion-btn-focus-box-shadow: none;
     --bs-accordion-bg: none;
@@ -29,18 +30,41 @@
     font-size: 1.3rem;
     color: white;
     font-weight: 700;
-    background: linear-gradient(to top right, #0A0A0A, #333333);
+    background: #0A0A0A;
 }
 .accordion-collapse{
-    background-color: #dce2d8;
+    background: linear-gradient(to bottom , #0A0A0A , #333333);
+    color: white;
+    border-radius: 0 0 8px 8px;
 }
 .accordion-button:not(.collapsed){
     box-shadow: none;
     padding: 2.5%;
     font-weight: 700;
     font-size: 1.3rem;
+    color: white;
+    border-radius: 16px;
 }
 
 .accordion-body{
     font-size: 1.1rem;
+    color: white;
+    border-radius: 16px;
+}
+
+/* Ícone do accordion fechado */
+.accordion-button::after {
+    background-image: url("../icon/angulo-para-baixo.png");
+}
+
+/* Ícone do accordion quando aberto */
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../icon/angulo-para-baixo.png");
+    transform: rotate(180deg); /* Opcional, caso use uma seta só */
+}
+
+.linha-faq {
+    color: var(--cor-amarelo1);
+    background-color: var(--cor-amarelo1);
+    height: 3px;
 }

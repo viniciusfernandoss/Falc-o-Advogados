@@ -14,7 +14,7 @@
 .carousel-caption h2{
     font-family: var(--fonte-Montserrat);
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--cor-amarelo2);
 }
 .carousel-caption p{
