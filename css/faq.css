@@ -68,3 +68,16 @@
     background-color: var(--cor-amarelo1);
     height: 3px;
 }
+
+.cta-faq a{ 
+    text-decoration: none;
+    background-color: var(--cor-amarelo1);
+    color: white;
+    transition: 0.4s;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.cta-faq a:hover{
+    background-color: white;
+    color: black;
+}
