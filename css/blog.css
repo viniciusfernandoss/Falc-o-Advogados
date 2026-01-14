@@ -42,9 +42,12 @@
     color: white;
     background-color: black;
 }
+.quebra-linha-blog{
+    display: inline;
+}
 
-@media (max-width: 1200px) {
-    .content-card-blog {
-        height: 40rem;
+@media (min-width: 1400px) {
+    .quebra-linha-blog {
+        display: none;
     }
 }
